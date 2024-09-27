@@ -247,9 +247,9 @@ h2 {
 
   /* catalog */
 
-  .details img {
-    width: 25%;
-  }
+  .contact img {
+  width: 15px;
+  } 
 }
 
 @media screen and (max-width: 360px) {
@@ -309,4 +309,8 @@ h2 {
     justify-content: center;
     align-items: center;
   }
+
+  .contact img {
+  width: 10px;
+}
 }

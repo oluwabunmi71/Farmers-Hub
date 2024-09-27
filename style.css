@@ -170,11 +170,7 @@ h2 {
 }
 
 .product img {
-  width: 75%;
-}
-
-.details img {
-  height: 300px;
+  width: 70%;
 }
 
 .prod {
@@ -182,11 +178,17 @@ h2 {
   padding: 10px;
   flex-basis: 80%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: last baseline;
-  column-gap: 30px;
+  column-gap: 50px;
   margin-bottom: 30px;
+  text-align: center;
 }
+
+.contact img {
+  width: 25px;
+}
+
 
 /* css code for mobile view */
 

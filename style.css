@@ -20,9 +20,20 @@ header {
   margin-bottom: 30px;
 }
 
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 header img {
   display: flex;
   width: 25%;
+}
+
+.header img {
+  display: flex;
+  width: 35px;
 }
 
 header p a {
@@ -189,6 +200,23 @@ h2 {
   width: 25px;
 }
 
+/* contact.css code start here */
+
+form {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: gray;
+}
+
+input {
+  border: 1px solid gray;
+  padding: 10px;
+  color: gray;
+  width: 300px;
+}
+
 
 /* css code for mobile view */
 
@@ -250,6 +278,13 @@ h2 {
   .contact img {
   width: 15px;
   } 
+
+   /* contact.css code start here */
+
+input {
+  width: 300px;
+}
+
 }
 
 @media screen and (max-width: 360px) {
@@ -312,5 +347,15 @@ h2 {
 
   .contact img {
   width: 10px;
+}
+
+    /* contact.css code start here */
+
+input {
+  width: 250px;
+}
+
+textarea {
+  width: 250px;
 }
 }
